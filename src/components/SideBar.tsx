@@ -8,7 +8,7 @@ interface SideBarIconProps {
 
 function SideBar () {
     return (
-        <div className="fixed top-0 left-0 h-screen ms:w-12 mm:w-14 ml:w-16 tb:w-20 lp:w-32 flex flex-col bg-light_sidebar shadow">
+        <div className="fixed top-0 left-0 h-screen ms:w-12 mm:w-14 ml:w-16 tb:w-20 lp:w-32 flex flex-col bg-light_sidebar dark:bg-dark_sidebar shadow">
             <div className="mt-2">
                 <Link to="/">
                     <SideBarIcon icon={<FaHouse />} tooltip="Home"/>

@@ -4,7 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class',
+  darkMode: 'selector',
   theme: {
     extend: {
       colors: {
@@ -13,6 +13,11 @@ export default {
         'light_background': '#f7f7f7',
         'logo_green': '#41c984',
         'light_sidebar_icon': '#ffffff',
+
+        'dark_topbar': '#232323',
+        'dark_background': '#292a2d',
+        'dark_card': '#333437',
+        'dark_sidebar': '#1e1e1e',
       },
     },
     screens: {

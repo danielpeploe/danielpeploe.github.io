@@ -6,8 +6,8 @@ function About () {
                 <img className="rounded-full" src="./images/me.png" alt="Project Image" />
             </div>
             <div className="inline text-logo_green text-4xl font-semibold">Daniel Peploe</div>
-            <span className="tb:text-xl font-semibold block">I am a final year Software Engineering student at the University of Canterbury.</span>
-            <span className="tb:text-xl font-semibold">Outside of software I enjoy football, basketball, tennis, and running.</span>
+            <span className="tb:text-xl font-semibold block dark:text-gray-300">I am a final year Software Engineering student at the University of Canterbury.</span>
+            <span className="tb:text-xl font-semibold dark:text-gray-300">Outside of software I enjoy football, basketball, tennis, and running.</span>
         </div>
         </div>
     )

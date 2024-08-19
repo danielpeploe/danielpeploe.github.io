@@ -6,25 +6,25 @@
     .sidebar-icon {
         @apply relative flex items-center justify-center 
         ms:w-12 mm:w-14 ml:w-16 tb:w-20 ms:h-12 mm:h-14 ml:h-16 tb:h-20 lp:h-20 mt-2 mb-2 mx-auto shadow-lg
-        bg-light_sidebar_icon text-logo_green hover:bg-logo_green
+        bg-light_sidebar_icon text-logo_green hover:bg-logo_green dark:bg-dark_card hover:dark:text-gray-300
         hover:text-light_sidebar_icon ms:rounded-lg mm:rounded-xl ml:rounded-3xl hover:rounded-xl
         transition-all duration-300 ease-linear cursor-pointer ms:text-xl mm:text-2xl ml:text-3xl tb:text-4xl;
     }
 
     .sidebar-tooltip {
         @apply absolute w-auto p-2 m-2 min-w-max ms:w-12 mm:w-14 ml:w-16 tb:w-20 ms:left-12 mm:left-14 ml:left-16 tb:left-20 rounded-md
-        shadow-md text-white bg-gray-900 text-xs font-bold
+        shadow-md text-white bg-gray-900 text-xs font-bold text-center dark:bg-dark_card
         transition-all duration-100 scale-0 origin-left;
     }
 
     .top-bar {
         @apply flex flex-row items-center justify-evenly
-      bg-light_topbar bg-opacity-90 h-20
+      bg-light_topbar bg-opacity-90 h-20 dark:bg-dark_topbar
         m-0 shadow-lg;
     }
 
     .top-bar-text {
-        @apply text-xl ml:text-2xl  text-gray-500 tracking-wider font-semibold text-opacity-80 
+        @apply text-xl ml:text-2xl dark:text-gray-300 text-gray-500 tracking-wider font-semibold text-opacity-80 
         mr-auto my-auto font-mono
         transition duration-300 ease-in-out;
     }

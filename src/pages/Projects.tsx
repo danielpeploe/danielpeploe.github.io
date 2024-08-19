@@ -26,12 +26,12 @@ function ProjectCard({ project }: { project: any }) {
     }
 
     return (
-        <div className="flex shadow-lg rounded bg-white ms:w-[250px] mm:w-[305px] ml:w-[350px] tb:w-[698px] lp:w-[800px] ll:w-[1000px] mm:h-fit ml:h-[350px]">
+        <div className="flex shadow-lg rounded bg-white dark:bg-dark_card ms:w-[250px] mm:w-[305px] ml:w-[350px] tb:w-[698px] lp:w-[800px] ll:w-[1000px] mm:h-fit ml:h-[350px] ms:min-h-[350px]">
             <img className="hidden tb:block w-full min-w-[450px] max-w-[450px] h-full object-cover rounded-l" src={project.img} alt="Project Image" />
             <div className="overflow-hidden ">
                 <div className="px-6 py-4">
-                    <div className="font-bold text-lg mb-2">{project.title}</div>
-                    <p className="text-gray-700 text-base">
+                    <div className="font-bold text-lg mb-2 dark:text-gray-300">{project.title}</div>
+                    <p className="text-gray-700 dark:text-gray-300 text-base">
                         {project.description}
                     </p>
                 </div>
@@ -46,7 +46,7 @@ function ProjectCard({ project }: { project: any }) {
 
 function ProjectList({ projects, setProjectId }: { projects: any[], setProjectId: (id: number) => void }) {
     return (
-        <div className="flex shadow-lg rounded bg-white ms:w-[250px] mm:w-[305px] ml:w-[350px] tb:w-[698px] lp:w-[800px] ll:w-[1000px] h-[250px]">
+        <div className="flex shadow-lg rounded bg-white  dark:bg-dark_card ms:w-[250px] mm:w-[305px] ml:w-[350px] tb:w-[698px] lp:w-[800px] ll:w-[1000px] h-[250px]">
             <div className="flex w-full m-2 overflow-x-auto">
                 {projects.map((project: any, index: number) => (
                     <button
@@ -55,9 +55,9 @@ function ProjectList({ projects, setProjectId }: { projects: any[], setProjectId
                         onClick={() => setProjectId(project.id)}
                     >
                         <div className="w-[210px] mx-1 rounded overflow-hidden shadow-lg min-w-[210px] h-[210px]">
-                            <img className="w-full h-[190px]" src={project.img} alt={project.title} />
+                            <img className="w-full h-[190px] " src={project.img} alt={project.title} />
                             <span className="items-center flex justify-center w-full">
-                                <div className="text-xs text-black font-semibold text-opacity-80 font-mono">{project.title}</div>
+                                <div className="text-xs text-black dark:text-gray-300 font-semibold text-opacity-80 font-mono">{project.title}</div>
                             </span>
                         </div>
                     </button>

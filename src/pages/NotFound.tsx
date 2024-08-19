@@ -5,7 +5,7 @@ function NotFound () {
                 <div>
                     <div className="inline text-logo_green text-8xl font-semibold">404</div>
                 </div>
-                <span className="text-2xl font-semibold">{"Not Found :("}</span>
+                <span className="text-2xl font-semibold dark:text-gray-300">{"Not Found :("}</span>
             </main>
         </div>
     )
