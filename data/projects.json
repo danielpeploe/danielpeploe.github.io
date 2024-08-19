@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "ECKO - Sports Communication App",
+        "description": "I collaborated within an agile scrum team of 7 to create a communication application featuring chatrooms and forums. Leveraged tools like Spring Boot and project management software such as Gradle, Git, and a CI/CD pipeline. Our QA approach included regression testing with JUnit and Cucumber.",
+        "img": "./images/ECKO.png",
+        "techstack": [],
+        "code": "",
+        "link": ""
+    },
+    {
+        "id": 2,
+        "title": "EVOH - EV Route and Charger App",
+        "description": "This project was undertaken within a team of 6 to develop an application for electric vehicle drivers to find the nearest charging station to the user. The project involved the use of external libraries, API’s such as OpenStreetsMap, and technologies such as Maven, Git, and JavaFX.",
+        "img": "./images/EVOH.png",
+        "techstack": [],
+        "code": "",
+        "link": ""
+    },
+    {
+        "id": 3,
+        "title": "Brain Tumour Classification",
+        "description": "For a computer vision project, I developed a deep learning model using a Convolutional Neural Network to classify different types of brain tumours based on MRI scans. The model was trained and tested using a dataset from Kaggle. I also implemented a prediction system that allows users to classify new images and retrain the model with updated data.",
+        "img": "./images/BrainTumour.png",
+        "techstack": [],
+        "code": "https://github.com/danielpeploe/brain-tumour-classifier",
+        "link": ""
+    },
+    {
+        "id": 4,
+        "title": "Youtube to MP3 Converter",
+        "description": "I developed a YouTube to MP3 converter because I wanted to create my own tool for this purpose. It served as my introduction to Tailwind CSS, with the backend built in JavaScript. Since the project is deployed using Render's free tier, the link might take a few minutes to load.",
+        "img": "./images/ytmp3.png",
+        "techstack": [],
+        "code": "https://github.com/danielpeploe/youtube-to-mp3",
+        "link": "https://daniel-peploe-youtube-to-mp3.onrender.com/"
+    },
+    {
+        "id": 5,
+        "title": "Personal Portfolio",
+        "description": "This portfolio website using TypeScript, React, and Tailwind CSS!",
+        "img": "./images/Portfolio.png",
+        "techstack": [],
+        "code": "",
+        "link": ""
+    },
+    {
+        "id": 6,
+        "title": "Retinal Image Analysis",
+        "description": "For my final year project, I am developing a deep learning model using U-Net and Vision Transformer architectures with TensorFlow and Python. This model aims to classify retinal image quality and assess the severity of Diabetic Retinopathy and Age-Related Macular Degeneration.",
+        "img": "./images/RetinalImaging.png",
+        "techstack": [],
+        "code": "",
+        "link": ""
+    },
+    {
+        "id": 7,
+        "title": "Raytracer",
+        "description": "I implemented a ray tracer program that can handle different scenes and geometric shapes using OpenGL. The program handles use of light refraction and reflection, shadows, and object transparency.",
+        "img": "./images/RayTracer.png",
+        "techstack": [],
+        "code": "https://github.com/danielpeploe/raytracer",
+        "link": ""
+    },
+    {
+        "id": 8,
+        "title": "Monster Fighter",
+        "description": "This was one of my first ever software projects which was a turn based fighting game involving pixel monsters. Additionally, there was a day and night system, shop, and random encounters. The project was developed in Java, utilising the Swing toolkit for the GUI aspects of the game.",
+        "img": "./images/MonsterFighter.png",
+        "techstack": [],
+        "code": "",
+        "link": ""
+    }
+]
